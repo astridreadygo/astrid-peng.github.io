@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astrid Peng — Human Extension Through Interface</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@200;300;400&family=Space+Mono:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- RECENT FLOATING WIDGET -->
+<div id="recent-widget">
+  <div class="widget-inner">
+    <div class="widget-header">
+      <span class="widget-title">Recent</span>
+      <span class="widget-dot"></span>
+    </div>
+    <div class="widget-items">
+      <div class="widget-item">
+        <div class="widget-date">2025.XX</div>
+        <div class="widget-text">Add your recent update — paper, conference, milestone.</div>
+      </div>
+      <div class="widget-item">
+        <div class="widget-date">2025.XX</div>
+        <div class="widget-text">Add your recent update here.</div>
+      </div>
+      <div class="widget-item">
+        <div class="widget-date">2024.XX</div>
+        <div class="widget-text">Add your recent update here.</div>
+      </div>
+    </div>
+    <div class="widget-footer">
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">More on LinkedIn →</a>
+    </div>
+  </div>
+</div>
+
+<canvas id="hero-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Astrid Peng</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#recognition">Awards</a></li>
+    <li><a href="#photography">Creative</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content">
+    <p class="hero-label">PhD Researcher · HCI · Multimodal Interaction</p>
+    <h1 class="hero-title">
+      Designing how<br>
+      humans <em>extend</em><br>
+      themselves through<br>
+      interface
+    </h1>
+    <p class="hero-sub">
+      I study the boundary between mind and medium —
+      <span>how cognition, expression, and attention</span>
+      are shaped by the systems we build to augment them.
+    </p>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-number">// 01</p>
+      <h2 class="section-title">About</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>I am a CS PhD student at the University of Utah, working at the intersection of <strong>Human-Computer Interaction, XR, and multimodal systems</strong>. I believe the most interesting questions in computing are not about what machines can do, but about <strong>how technology changes what humans can think, feel, and express</strong>. It is a medium, not a replacement.</p>
+        <p>I began my HCI research journey as a research assistant at Tsinghua and Aalto. I hold a BS in Mathematics and a BE in Industrial Design from Shanghai Jiao Tong University, <strong>graduating with the Excellent Graduate Award</strong>.</p>
+        <div class="about-tags">
+          <span class="tag">Multimodal Interaction</span>
+          <span class="tag">Eye Tracking</span>
+          <span class="tag">XR / Spatial Computing</span>
+          <span class="tag">Critical Thinking</span>
+          <span class="tag">Attention Design</span>
+          <span class="tag">Human Extension</span>
+        </div>
+      </div>
+      <div class="about-identity">
+        <div class="identity-statement">
+          "How can we design for humans to more authentically extend their cognition and expression in digital space?"
+        </div>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <span class="skill-name">Eye Tracking</span>
+            <span class="skill-status building">building →</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Unity / XR</span>
+            <span class="skill-status building">building →</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Python</span>
+            <span class="skill-status">proficient</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">User Research</span>
+            <span class="skill-status">proficient</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Blender / 3D</span>
+            <span class="skill-status">proficient</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Multimodal ML</span>
+            <span class="skill-status building">building →</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Prototyping</span>
+            <span class="skill-status">proficient</span>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Mathematics</span>
+            <span class="skill-status">foundation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-number">// 02</p>
+      <h2 class="section-title">Research</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="reveal">
+      <p class="research-statement">
+        I design interfaces that treat humans not as <em>users to be optimized</em>,
+        but as minds to be extended in how they think, communicate, and perceive.
+      </p>
+    </div>
+    <div class="project-list reveal">
+
+      <div class="project-item">
+        <div class="project-year">2024</div>
+        <div>
+          <div class="project-title">Angel vs. Devil</div>
+          <p class="project-desc">A conversational AI system featuring two opposing agents — one supportive, one adversarial — designed to scaffold critical thinking. Explores how structured cognitive conflict can strengthen reasoning rather than resolve it too quickly.</p>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">LLM Agents</span>
+          <span class="project-tag">Critical Thinking</span>
+          <span class="project-tag">HCI</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-year">2023</div>
+        <div>
+          <div class="project-title">Whispering in XR</div>
+          <p class="project-desc">A multimodal system for private communication in extended reality environments. Recreates the intimacy and social dynamics of whispering through spatial audio, gaze detection, and proximity sensing — bringing nuanced human communication into digital space.</p>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">XR</span>
+          <span class="project-tag">Multimodal</span>
+          <span class="project-tag">Social Computing</span>
+        </div>
+      </div>
+
+      <div class="project-item">
+        <div class="project-year">ongoing</div>
+        <div>
+          <div class="project-title">Attention Stewardship</div>
+          <p class="project-desc">Exploring how eye tracking can enable ambient AI agents to monitor and manage human attention during complex tasks — allowing people to step away without losing context, and returning them at the right moment.</p>
+        </div>
+        <div class="project-tags">
+          <span class="project-tag">Eye Tracking</span>
+          <span class="project-tag">AI Agent</span>
+          <span class="project-tag">In Progress</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- RECOGNITION -->
+<section id="recognition">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-number">// 03</p>
+      <h2 class="section-title">Recognition & Service</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="recognition-grid reveal">
+      <div class="recognition-section">
+        <h3>Awards & Conferences</h3>
+
+        <div class="recognition-item">
+          <div class="rec-title">Your Award Title Here</div>
+          <div class="rec-meta">Conference / Year</div>
+          <div class="rec-badge">Award</div>
+        </div>
+
+        <div class="recognition-item">
+          <div class="rec-title">Conference Attendance</div>
+          <div class="rec-meta">e.g. CHI 2024 · Honolulu</div>
+          <div class="rec-badge">Attended</div>
+        </div>
+
+        <div class="recognition-item">
+          <div class="rec-title">Add your conferences here</div>
+          <div class="rec-meta">Venue · Year</div>
+        </div>
+
+      </div>
+      <div class="recognition-section">
+        <h3>Reviewing & Service</h3>
+
+        <div class="recognition-item">
+          <div class="rec-title">Reviewer</div>
+          <div class="rec-meta">Conference Name · Year</div>
+          <div class="rec-badge">Service</div>
+        </div>
+
+        <div class="recognition-item">
+          <div class="rec-title">Add reviewing roles here</div>
+          <div class="rec-meta">Venue · Year</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PHOTOGRAPHY -->
+<section id="photography">
+  <div class="section-inner">
+    <div class="reveal">
+      <p class="section-number">// 04</p>
+      <h2 class="section-title">Creative</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="reveal">
+      <p class="photo-intro">
+        Seeing is its own kind of research. I photograph the world
+        the way I approach interfaces, looking for the human underneath the surface.
+      </p>
+      <div class="photo-grid">
+        <div class="photo-cell">
+          <img src="photo-1.jpg" alt="Photography 1" onerror="this.style.display='none'">
+          <span class="photo-label">Featured</span>
+        </div>
+        <div class="photo-cell">
+          <img src="photo-2.jpg" alt="Photography 2" onerror="this.style.display='none'">
+          <span class="photo-label">Light</span>
+        </div>
+        <div class="photo-cell">
+          <img src="photo-3.jpg" alt="Photography 3" onerror="this.style.display='none'">
+          <span class="photo-label">Form</span>
+        </div>
+        <div class="photo-cell">
+          <img src="photo-4.jpg" alt="Photography 4" onerror="this.style.display='none'">
+          <span class="photo-label">Color</span>
+        </div>
+        <div class="photo-cell">
+          <img src="photo-5.jpg" alt="Photography 5" onerror="this.style.display='none'">
+          <span class="photo-label">Depth</span>
+        </div>
+      </div>
+      <p class="photo-note">// replace photo-1.jpg through photo-5.jpg with your images</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-left">Astrid Peng</div>
+    <div class="footer-links">
+      <a href="/cdn-cgi/l/email-protection#3a43554f487a5f575b535614595557" class="footer-link"><span class="__cf_email__" data-cfemail="dfa6b0aaad9fbab2beb6b3f1bcb0b2">[email&#160;protected]</span></a>
+      <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank" class="footer-link">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=YOUR-ID" target="_blank" class="footer-link">Google Scholar</a>
+      <a href="https://github.com/YOUR-GITHUB" target="_blank" class="footer-link">GitHub</a>
+      <a href="#" class="footer-link">CV ↓</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 Astrid Peng · PhD Researcher</span>
+    <span class="footer-copy">Human Extension Through Interface</span>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
